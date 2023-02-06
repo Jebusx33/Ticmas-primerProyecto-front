@@ -1,0 +1,120 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+ #about{
+    height: 1100px;
+    display: flex;
+}
+.tarjetasAbout{
+    flex-direction: column;
+}
+.formacion{
+    margin-left: -1% !important;
+}
+.habilidad{
+   margin-top: 10% !important;
+}
+  #historial{
+    height: 1900px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    #about{
+       height: 950px;
+       display: flex;
+   }
+   .tarjetasAbout{
+       flex-direction: column;
+   }
+   .formacion{
+       margin-left: -1% !important;
+   }
+   .habilidad{
+      margin-top: 10% !important;
+   }
+     #historial{
+       height: 1450px;
+     }
+   }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    #about{
+        height: 950px;
+        display: flex;
+    }
+    .tarjetasAbout{
+        flex-direction: column;
+    }
+    .formacion{
+        margin-left: -1% !important;
+    }
+    .habilidad{
+       margin-top: 10% !important;
+    }
+      #historial{
+        height: 1500px;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about{
+        height: 850px;
+        display: flex;
+    }
+    .tarjetasAbout{
+        flex-direction: column;
+    }
+    .formacion{
+        margin-left: -1% !important;
+    }
+    .habilidad{
+       margin-top: 10% !important;
+    }
+      #historial{
+        height: 1450px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about{
+        height: 600px !important;
+        display: flex;
+    }
+    .tarjetasAbout{
+        flex-direction: column;
+    }
+    .formacion{
+        margin-left: -1% !important;
+    }
+    .habilidad{
+       margin-top: 0% !important;
+       margin-left: 5%;
+    }
+      #historial{
+        height: 1000px;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #about{
+        height: 1000px;
+        display: flex;
+    }
+    .tarjetasAbout{
+        flex-direction: row;
+    }
+#historial{
+    height: 900px;
+}
+#contact{
+    height: 600px;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
